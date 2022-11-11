@@ -5,12 +5,44 @@
 <head>
 	<link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
+	<form method="post">
+	<label for="name">Name</label> 
+	<input id="name" type="text"><br><br>
+
+	<label for="email">Email</label>
+	<input id="email" type="email"><br><br>
+
+	<label for="male" for="female" for="other">Gender</label>
+	<input id="male" name="gender" type="radio">Male
+	      <input id="female" name="gender" type="radio">Female
+	      <input id="other" name="gender" type="radio">Other<br><br>
+
+	<label for="cars">Car Brands</label>
+	<select >
+		<option id="cars" value="bmw">BMW</option>
+		<option id="cars" value="audi">Audi</option>
+		<option id="cars" value="mercedez">Mercedez</option><br><br>
+	</select><br><br>
+
+	<label for="age">Age</label>
+    <input id="age" type="number"><br><br>
+
+	<label for="dob">DOB</label>
+    <input id="dob" type="date"><br><br>
+
+	<label for="password">Password</label>
+
+	<input id="password" type="password"><br><br>
+
+	<button typy="submit">Submit</button>
+
+
+
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
-
+</form>
 </body>
 
 </html>
